@@ -18,7 +18,7 @@
 
     **注意**：跨域配置中应填写 Cordys CRM 的访问地址。为避免跨域异常，Cordys CRM 与 SQLBot 建议保持一致，即要么统一使用域名，要么统一使用 IP 地址。
 
-    ![创建 SQLBot 应用](../img/user_manual/sqlbot-create-app.png)
+![创建 SQLBot 应用](../img/user_manual/sqlbot-create-app.png)
 
 ### 配置接口
 
@@ -33,7 +33,7 @@
     | csrfToken | localStorage | csrf-token | header |
     | sessionId | localStorage | x-auth-token | header |
 
-    ![凭证配置](../img/user_manual/sqlbot-credentials.png)
+![凭证配置](../img/user_manual/sqlbot-credentials.png)
 
 :warning: **注意:** 如果在问数过程中出现 401 错误，请检查上图这几个参数是否一致。
 
@@ -57,7 +57,7 @@
     2. 进入【系统】>【企业设置】>【三方设置】
     3. 编辑 SQLBot 并粘贴上述脚本
 
-    ![Cordys CRM 配置](../img/user_manual/cordys-sqlbot-config.png)
+![Cordys CRM 配置](../img/user_manual/cordys-sqlbot-config.png)
 
 ### 验证配置
 
@@ -69,4 +69,4 @@
     2. 在系统右下角查看 SQLBot 应用图标
     3. 图标显示即表示配置成功
 
-    ![SQLBot 配置成功](../img/user_manual/sqlbot-success.png)
+![SQLBot 配置成功](../img/user_manual/sqlbot-success.png)

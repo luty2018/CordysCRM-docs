@@ -131,4 +131,4 @@
     默认密码：CordysCRM
     ```
 
-    ![访问Cordys CRM](../img/installation/login.png)
+![访问Cordys CRM](../img/installation/login.png)

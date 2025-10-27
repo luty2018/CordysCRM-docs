@@ -26,7 +26,7 @@
     1. 企业管理员账号登录后，在左侧菜单选择【应用管理】>【工作台】或【工作台管理】
     2. 点击「创建应用」- 选择「添加自建应用」
 
-    ![创建应用](../img/user_manual/wecom-create-app.png)
+![创建应用](../img/user_manual/wecom-create-app.png)
 
 ### 配置应用信息
 
@@ -52,7 +52,7 @@
 
     **注意**：对指定可见范围的成员，系统将自动在工作台显示应用，详情可参照 [企业微信开发者中心文档](https://developer.work.weixin.qq.com/)
 
-    ![应用配置](../img/user_manual/wecom-app-config.png)
+![应用配置](../img/user_manual/wecom-app-config.png)
 
 ### 微信工作台访问
 
@@ -64,9 +64,9 @@
     2. 进入【工作台】
     3. 找到配置的小程序并点击进入
     
-    | 工作台访问 | 移动端界面 |
-    | :---: | :---: |
-    | ![工作台访问](../img/user_manual/wecom-workbench.png) | ![移动端界面](../img/user_manual/wecom-miniprogram.png) |
+| 工作台访问 | 移动端界面 |
+| :---: | :---: |
+| ![工作台访问](../img/user_manual/wecom-workbench.png) | ![移动端界面](../img/user_manual/wecom-miniprogram.png) |
 
 ### 手机浏览器访问
 
@@ -74,6 +74,6 @@
 
     在手机端浏览器地址栏输入 Cordys CRM 部署地址，即可完成系统访问。
     
-    | 手机浏览器访问 | 移动端界面 |
-    | :---: | :---: |
-    | ![手机浏览器访问](../img/user_manual/mobile-browser-access.png) | ![移动端界面](../img/user_manual/wecom-miniprogram.png) |
+| 手机浏览器访问 | 移动端界面 |
+| :---: | :---: |
+| ![手机浏览器访问](../img/user_manual/mobile-browser-access.png) | ![移动端界面](../img/user_manual/wecom-miniprogram.png) |

@@ -13,7 +13,7 @@
 
     用户可以根据公司业务需求自定义表单内容。
 
-    ![表单设置](../img/user_manual/form-settings.png)
+![表单设置](../img/user_manual/form-settings.png)
 
 
 ## 表单设置
@@ -30,7 +30,7 @@
     2. **配置属性**：在右侧字段属性面板修改字段的基本信息、约束、权限等
     3. **调整布局**：在表单属性中修改整体表单布局
 
-    ![模块设置](../img/user_manual/module-settings.png)
+![模块设置](../img/user_manual/module-settings.png)
 
 
 ## 业务规则设置
@@ -45,4 +45,4 @@
     - **公海规则**
     - **库容规则**
 
-    ![业务规则设置](../img/user_manual/business-rules.png)
+![业务规则设置](../img/user_manual/business-rules.png)

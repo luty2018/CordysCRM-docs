@@ -84,5 +84,5 @@
 
     默认密码：CordysCRM
     ```
-    ![访问 Cordys CRM](../img/installation/login.png)
+![访问 Cordys CRM](../img/installation/login.png)
 

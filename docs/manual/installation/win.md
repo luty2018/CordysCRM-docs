@@ -8,27 +8,28 @@
 
 ## 2 安装部署
 
+### 2.1 图形化安装
+
 !!! Abstract ""
-
-    ### 2.1 图形化安装 (新手推荐)
-
     2.1.1 打开 docker desktop, 在顶部搜索栏输入 ` cordys ` 关键字进行搜索，然后下载镜像。
 
-    ![下载镜像](../img/installation/win_install.png)
+![下载镜像](../img/installation/win_install.png)
 
+!!! Abstract ""
 
     2.1.2 下载完成后, 点击左侧的 `Images` 选项卡, 找到对应的 `1panel/cordys-crm` 镜像, 点击 `Run` 按钮, 填写相关参数后, 点击 `Run` 即可启动容器。
 
-    ![运行镜像](../img/installation/win_run.png)
+![运行镜像](../img/installation/win_run.png)
+
+!!! Abstract ""
 
     2.1.3 启动完成后, 点击左侧的 `Containers` 选项卡, 可以看到正在运行的 `cordys-crm` 容器。
 
-    ![容器运行中](../img/installation/win_click_success.png)
+![容器运行中](../img/installation/win_click_success.png)
 
-    :warning: **注意:** 端口号可以根据实际情况进行更改, 但要确保不冲突。
+### 2.2 命令行安装
 
-    ### 2.2 命令行安装 (适合有docker基础的用户) 
-
+!!! Abstract ""
     2.2.1 打开 `PowerShell` 或 `cmd` 窗口, 执行以下命令拉取镜像（可选）：
 
     ```bash
@@ -42,7 +43,9 @@
    
     2.2.3 容器启动成功示例：
 
-    ![容器启动成功](../img/installation/win_cmd_success.png)
+![容器启动成功](../img/installation/win_cmd_success.png)
+
+!!! Abstract ""
 
     :warning: **注意:** 如果启动过程中发生错误，请参考：[**常见问题排查**](../installation/faq.md)。
 
@@ -63,6 +66,8 @@
 
     默认密码：CordysCRM
     ```
-    ![访问 Cordys CRM](../img/installation/login.png)
+![访问 Cordys CRM](../img/installation/login.png)
+
+!!! Abstract ""
 
     :warning: **注意:** 如果无法访问, 请检查端口防火墙设置, 确保`8081`端口已开放。

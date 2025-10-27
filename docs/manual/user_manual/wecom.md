@@ -10,7 +10,9 @@
 
     #### 2. 登录 [企业微信管理后台](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome) 
 
-    ![企业微信管理后台](../img/user_manual/wecom_bg.png)
+![企业微信管理后台](../img/user_manual/wecom_bg.png)
+
+!!! Abstract ""
 
     #### 3. 配置通讯录 API 权限
 
@@ -19,7 +21,9 @@
       - 通讯录组织架构只读（同步组织结构）
       - 通讯录组织架构读写（创建/修改部门和成员）
 
-      ![配置](../img/user_manual/wecom-settings.png)
+![配置](../img/user_manual/wecom-settings.png)
+
+!!! Abstract ""
 
     #### 4. 创建应用并获取凭证
 
@@ -29,8 +33,10 @@
      - 应用的 AgentId
      - 应用的 Secret
 
-      ![配置](../img/user_manual/wecom_app.png)
-      ![配置](../img/user_manual/wecom_app_create.png)
+![配置](../img/user_manual/wecom_app.png)
+![配置](../img/user_manual/wecom_app_create.png)
+
+!!! Abstract ""
 
     #### 5. 安全配置
 
@@ -38,14 +44,18 @@
       - 部署 HTTPS 服务
       - 配置回调 URL
 
-      ![配置](../img/user_manual/wecom_app_config.png)
+![配置](../img/user_manual/wecom_app_config.png)
+
+!!! Abstract ""
 
         配置可信域名需完成域名归属认证：
 
          把下载的文件放在 域名的根目录下，访问 `https://yourdomain/WW_verify_TieM9n8GuYmAwZOR.txt”` 验证成功后，企业微信会自动检测到。
          通常根目录是 /var/www/html/ 或 /usr/share/nginx/html/ 或 /var/www/ 等，具体根据服务器配置而定。
          
-      ![配置](../img/user_manual/wecom_app_domain.png)
+![配置](../img/user_manual/wecom_app_domain.png)
+
+!!! Abstract ""
 
     #### 5. 数据准备
 
@@ -64,9 +74,7 @@
 
 ### 配置企业微信信息
 
-!!! Abstract ""
-
-    ![开启同步开关示意图](../img/user_manual/wecom-enable.png)
+![开启同步开关示意图](../img/user_manual/wecom-enable.png)
 
 ### 同步企业微信组织架构
 
@@ -78,7 +86,9 @@
 
     **后续维护说明**：当企业微信中新增成员或调整组织架构后，只需重复执行上述「企业微信同步」操作，即可完成最新组织架构的更新。
 
-    ![同步组织架构](../img/user_manual/wecom-sync.png)
+![同步组织架构](../img/user_manual/wecom-sync.png)
+
+!!! Abstract ""
 
     #### 重要提醒：
 
@@ -95,11 +105,9 @@
     1. 系统 → 企业设置 → 认证设置 → 添加 OAuth2 认证
     2. 企业微信中 OAuth 2.0 授权 URL 示例（`appid` 和 `agentid` 替换为实际值）
 
-    ![OAuth2配置](../img/user_manual/wecom-oauth2.png)
+![OAuth2配置](../img/user_manual/wecom-oauth2.png)
 
 ## 企业微信工作台访问 Cordys CRM
 
-!!! Abstract ""
-
-    ![工作台访问](../img/user_manual/wecom_workbench.png)
-    ![移动端界面](../img/user_manual/wecom_workbench_main.png)
+![工作台访问](../img/user_manual/wecom_workbench.png)
+![移动端界面](../img/user_manual/wecom_workbench_main.png)

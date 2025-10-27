@@ -11,7 +11,7 @@
 
     点击「添加」按钮即可触发添加新角色功能。
 
-    ![添加角色](../img/user_manual/add-role.png)
+![添加角色](../img/user_manual/add-role.png)
 
 ## 从两个维度配置角色权限
 ### 功能权限
@@ -22,7 +22,7 @@
 !!! Abstract ""
     通过组织架构控制数据查询范围。
 
-    ![配置角色权限](../img/user_manual/role-permissions.png)
+![配置角色权限](../img/user_manual/role-permissions.png)
 
 ## 添加角色成员
 
@@ -39,4 +39,4 @@
         - 按个人添加
         - 从其他角色批量添加成员
 
-    ![添加角色成员](../img/user_manual/add-role-members.png)
+![添加角色成员](../img/user_manual/add-role-members.png)

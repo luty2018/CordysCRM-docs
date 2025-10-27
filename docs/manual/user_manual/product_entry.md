@@ -11,9 +11,9 @@
 
      **提示**：产品表单可以根据公司产品特性在表单设置中进行自定义。
 
-    ![添加产品](../img/user_manual/add-product.png)
+![添加产品](../img/user_manual/add-product.png)
 
-    ![产品表单设置](../img/user_manual/product-form-settings.png)
+![产品表单设置](../img/user_manual/product-form-settings.png)
 
 ## 管理产品
 
@@ -24,4 +24,4 @@
     - 调整产品排序
     - 批量产品操作
 
-    ![产品管理](../img/user_manual/manage-products.png)
+![产品管理](../img/user_manual/manage-products.png)
