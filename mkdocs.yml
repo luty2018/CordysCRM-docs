@@ -43,6 +43,7 @@ nav:
     - 快速入门: quick_start.md
     - 教学视频: https://www.bilibili.com/video/BV1bAHczdESW/
     - 系统架构: system_arch.md
+    - 源码运行: source_run.md
     - 安装部署:
         - 1Panel 安装: installation/1panel_installtion.md
         - 在线安装: installation/online_installtion.md
