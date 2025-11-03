@@ -46,7 +46,7 @@
 !!! Abstract ""
 
     在线索详情中，点击「转换」，即可将线索一键转为客户。
-
+    
     **注意**：转客户的线索不会展示在线索列表中。
 
 ![线索转换](../img/user_manual/image-20250918114641384.png)
@@ -73,12 +73,12 @@
 !!! Abstract ""
 
     在左侧菜单点击【商机】，进入商机管理页面，用户可以：
-
+    
      - 「新建商机」
      - 快捷「线索转为商机」
 
 ![商机管理](../img/user_manual/opportunity-management.png)
- 
+
 
 ## 跟进商机
 !!! Abstract ""
@@ -90,13 +90,44 @@
 !!! Abstract ""
 
     用户可以根据跟进情况进行以下操作：
-
+    
     - 修改商机阶段
     - 录入当前商机的「跟进记录」
     - 添加「跟进计划」
 
 ![商机跟进](../img/user_manual/follow-opportunity.png)
 
+<<<<<<< HEAD
+## 商机看板
+
+!!! Abstract ""
+
+    点击看板icon进入「商机看板」视图。
+    
+    - 商机看板根据商机阶段展示当前商机信息
+    - 商机视图均支持列表和看板两种模式查看
+    - 修改商机阶段或商机赢率可进入[模块配置-商机阶段设置]调整
+
+![商机看板](../img/user_manual/opportunity_Dashboard.png)
+
+## 商机图表
+
+!!! Abstract ""
+
+    点击视图右侧的数据分析icon，进入商机数据分析。
+
+![商机分析](../img/user_manual/opportunity_Analysis.png)
+
+!!! Abstract ""
+
+    进入当前视图的数据分析页。
+    
+    - 用户可以进一步添加条件进行过滤，也可以基于当前视图直接配置图表类型和分组依据进行「生成图表」
+    - 数据指标支持计数、求和、平均三种汇总方式
+    - 生成的图表支持全屏展示和下载保存
+
+![商机分析](../img/user_manual/opportunity_Data_Analysis.png)
+=======
 ## 合并客户
 !!! Abstract ""
 
@@ -134,3 +165,5 @@
 
     点击「详情」按钮，可以查看「跟进记录」或「跟进计划」的详细信息。
 ![活动记录详情](../img/user_manual/activitylog2.png)
+>>>>>>> dbea27632e594b4160fd9c8fdb70ed30721aa318
+
