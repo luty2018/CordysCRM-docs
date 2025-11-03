@@ -23,9 +23,6 @@ jobs:
         run: |
           mkdocs build
           zip -r -q -9 site.zip site
-          ls -la site.zip
-          mv site.zip ../
-          cd ../
           ls -la
       - name: 上传
         uses: appleboy/scp-action@v0.1.7
