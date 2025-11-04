@@ -97,7 +97,6 @@
 
 ![商机跟进](../img/user_manual/follow-opportunity.png)
 
-<<<<<<< HEAD
 ## 商机看板
 
 !!! Abstract ""
@@ -127,7 +126,7 @@
     - 生成的图表支持全屏展示和下载保存
 
 ![商机分析](../img/user_manual/opportunity_Data_Analysis.png)
-=======
+
 ## 合并客户
 !!! Abstract ""
 
@@ -165,5 +164,3 @@
 
     点击「详情」按钮，可以查看「跟进记录」或「跟进计划」的详细信息。
 ![活动记录详情](../img/user_manual/activitylog2.png)
->>>>>>> dbea27632e594b4160fd9c8fdb70ed30721aa318
-
