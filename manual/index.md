@@ -6,7 +6,6 @@
     
     Cordys（/ˈkɔːrdɪs/）由“Cord”（连接之绳）与“System”（系统）融合而成，寓意“关系的纽带系统”，诠释了 CRM 的本质：连接客户，缔造长期价值。
 
-    <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115496452164030&bvid=BV1Wm1sB4ExL&cid=33722466438&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## 1 整体架构 
 
@@ -45,7 +44,13 @@
   </tr> 
 </table>
 
-## 4 主要功能
+
+## 4 视频介绍
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115496452164030&bvid=BV1Wm1sB4ExL&cid=33722466438&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
+## 5 主要功能
 
 !!! Tip ""
 
@@ -57,7 +62,7 @@
     - 智能体：支持嵌入企业级 AI 智能体平台 MaxKB，基于 CRM 数据创建高效智能体应用， 如智能创建（线索/客户/商机/联系人）、智能录入（跟进记录）、智能查重等。
     - 系统管理：包含组织架构、角色权限、模块设置、消息管理、企业设置以及系统日志功能。
 
-## 5  了解更多
+## 6  了解更多
 
 !!! Tip ""
 
