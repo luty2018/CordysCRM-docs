@@ -2,8 +2,42 @@
     Cordys CRM 支持通过 MCP 进行服务端智能创建（线索/客户/商机/联系人）、智能录入（跟进记录）、智能查重等。
 
 ## 1 服务配置
+
 !!! Tip ""
-    Cordys CRM MCP Server 默认监听端口为 8082，使用 SSE 协议进行通信。基本配置如下：
+    Cordys CRM MCP Server 安装 All in one 镜像中就包含了，默认端口是 8082，支持以下两种通信协议：
+
+    - SSE（Server-Sent Events）：基于 HTTP 协议的单向通信协议，适用于实时数据推送场景。
+    - Streamable-HTTP：基于 HTTP/1.1 的双向通信协议，适用于需要持续数据流传输的场景。
+
+    默认配置文件位于
+
+        /opt/cordys/conf/cordys-crm.properties
+    
+    示例配置内容
+     
+        server.port=8082
+        
+        # Logging Settings
+        logging.file.path=/opt/cordys/logs/mcp-server
+        
+        # stdio server settings
+        spring.ai.mcp.server.stdio=false
+        
+        # Cordys CRM server settings
+        cordys.crm.url=http://127.0.0.1:8081
+        spring.mvc.async.request-timeout=60000
+        
+        spring.ai.mcp.server.type=ASYNC
+        spring.ai.mcp.server.name=cordys-crm-mcp-server
+        spring.ai.mcp.server.version=1.0.0
+        
+        # 可选：启用 Streamable 模式
+        # spring.ai.mcp.server.protocol=STREAMABLE
+        # spring.ai.mcp.server.streamable-http.mcp-endpoint=/mcp
+
+## 2 客户端配置
+!!! Tip ""
+    Cordys CRM MCP Server 默认监听端口为 8082，支持 SSE 和 Streamable-HTTP 协议进行通信。基本配置如下：
 
     ```
     {
@@ -17,6 +51,8 @@
         }
     }
     ```
+    服务端开启了 Streamable-HTTP 协议，只需将 `transport` 字段修改为 `streamable_http` 即可。
+
 !!! Tip ""
     登录 Cordys CRM 从左下角 【 个人中心 - API Keys 】中获取 Access Key 和 Secret Key
 
@@ -29,7 +65,7 @@
 
 
 
-## 2 MCP 工具说明
+## 3 MCP 工具说明
 !!! Tip ""
     Cordys CRM 的 MCP Server 提供以下工具。
 
@@ -99,9 +135,9 @@
 
 
 
-## 3 使用示例
+## 4 使用示例
 
-###  3.1 MaxKB 集成示例
+###  4.1 MaxKB 集成示例
 
 ![agent](img/mcp/agent_mcp.png)
 
@@ -113,6 +149,8 @@
     步骤二： 在「基本信息」里添加两个用户输入，分别是 ak 和 sk，添加两个会话变量，分别是 Cordys CRM 的 Access Key 和 Secret Key。
 
     步骤三： 添加 Cordys CRM MCP 工具。
+
+    步骤四： 根据自身量身定做的业务场景，设计提示词和工具调用逻辑。
 
     添加 MCP 调用节点
 
@@ -129,7 +167,8 @@
             }
         }
         ```
-    步骤四： 根据自身量身定做的业务场景，设计提示词和工具调用逻辑。
+    服务端开启了 Streamable-HTTP 协议，只需将 `transport` 字段修改为 `streamable_http` 即可。
+
 
 !!! Tip ""
     方式一：Cordys CRM 智能查询效果
@@ -141,7 +180,7 @@
 
 ![智能创建线索](../img/user_manual/agent-Create-lead.png)
 
-###  3.2 开发工具 TRAE 集成示例
+###  4.2 开发工具 TRAE 集成示例
 
 !!! Tip ""
     第一步: 配置 `MCP Server`
