@@ -53,11 +53,14 @@
     ```
     # 需要修改的配置把前面的 # 号去掉，修改对应的值即可，例如：
     logger.sql.level=info
-    ## DATABASE
+    # MySQL 数据库配置，默认使用内置 MySQL
+    #mysql.embedded.enabled=true
     #spring.datasource.url=jdbc:mysql://ip:port/db?autoReconnect=false&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
     #spring.datasource.username=username
     #spring.datasource.password=password
-    
+
+    # Redis 配置,默认使用内置 Redis
+    #redis.embedded.enabled=true
     #spring.data.redis.host=ip
     #spring.data.redis.password=password
     #spring.data.redis.port=6379
@@ -77,6 +80,11 @@
     # Streamable Protocol Settings ,default is SSE
     #spring.ai.mcp.server.protocol=STREAMABLE
     #spring.ai.mcp.server.streamable-http.mcp-endpoint=/sse
+
+    # 仪表板外链功能启用白名单,不开启则不限制访问
+    #dashboard.whitelist.enabled=false
+    # 白名单开关开启后允许访问的IP地址或域名列表,多个用逗号分隔
+    #dashboard.whitelist.allowed=
 
     ```
 
