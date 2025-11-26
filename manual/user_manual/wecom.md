@@ -47,11 +47,36 @@
 
 !!! Abstract ""
 
-        配置可信域名需完成域名归属认证：
+     **域名归属认证说明**
 
-         把下载的文件放在 域名的根目录下，访问 `https://yourdomain/WW_verify_TieM9n8GuYmAwZOR.txt”` 验证成功后，企业微信会自动检测到。
-         通常根目录是 /var/www/html/ 或 /usr/share/nginx/html/ 或 /var/www/ 等，具体根据服务器配置而定。
-         
+      在配置可信域名之前，需要先完成域名归属认证。请按照以下步骤操作：
+      
+      1. **将企业微信提供的验证文件上传至域名根目录**
+         下载企业微信提供的 `WW_verify_xxxxx.txt` 文件，并将其放置在域名的根目录下。
+
+         根目录位置可能因服务器环境不同而有所差异，通常包括以下路径：
+   
+          * `/var/www/html/`
+          * `/usr/share/nginx/html/`
+          * `/var/www/`
+            
+         请根据实际服务器配置确认，完成后可通过以下地址访问验证：
+
+         ```
+         https://yourdomain/WW_verify_xxxxx.txt
+         ```
+      
+      2. **使用 Nginx 反向代理时的配置方法**
+         如果当前服务通过 Nginx 反向代理，可以在站点配置中添加如下规则，以直接返回验证文件内容：
+   
+         ```nginx
+         location = /WW_verify_xxxxx.txt { # 企业微信下载的文件名称
+             add_header Content-Type 'text/html; charset=utf-8';
+             return 200 'Cv9TeWwxxxjAMOak';  # 该内容为企业微信验证文件中的实际文本
+         }
+         ```
+
+
 ![配置](../img/user_manual/wecom_app_domain.png)
 
 !!! Abstract ""
